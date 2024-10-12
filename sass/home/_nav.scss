@@ -1,0 +1,39 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+nav {
+  .nav {
+    @include flex(space-between, center);
+    font-family: "Roboto", sans-serif;
+    ul {
+      list-style: none;
+      @include flex(space-between, center);
+      gap: 100px;
+      a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+          background-color: lightblue;
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
+.nav-center{
+    margin-right: 30%;
+}
+@media screen and (max-width: 500px) {
+    nav {
+      .nav {
+        .nav-center {
+          display: none;
+        }
+        .nav-right {
+          .fa-bars {
+            display: block;
+          }
+        }
+      }
+    }
+  }

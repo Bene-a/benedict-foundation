@@ -1,0 +1,20 @@
+@use "./variables" as *;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    color: black;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+}

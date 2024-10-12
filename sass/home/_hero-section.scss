@@ -1,0 +1,21 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+
+.hero-section{
+    background-image: url("../images/Looking Forward.jpeg");
+    background-size: cover;
+    height: 80vh;
+}
+.container{
+    text-align: center;
+    margin-top: 2%;
+}
+.belton{
+    margin-top: 15%;
+}
+.tion{
+    font-size: 1.6em;
+}
+.tions{
+    font-size: 1.2em;
+}
